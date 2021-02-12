@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReservaForm</title>
+</head>
+
+</body>
+<header>
+    <main>
+        <section id="sct-formulario">
+            <input type="button" onclick="history.back()" name="volver atrás" value="volver atrás">
+            <h2>Ejemplo de formulario</h2>
+            <form name="sct-formulario" method="GET" action="#">
+                <fieldset>
+                    <legend>Información Personal</legend>
+                    <label for="txtNombre">Nombre:</label>
+                    <input type="text" id="txtNombre" required placeholder="Primer Nombre">
+                    <br><br>
+                    <label for="txtApellido">Primer Apellido:</label>
+                    <input type="text" id="txtApellido" required>
+                    <br><br>
+                    <label for="txtApellidoDos">Segundo Apellido:</label>
+                    <input type="text" id="txtApellidoDos" required>
+                    <br><br>
+                    <label for="Sexo">Sexo:</label>
+                    <input type="radio" name="tipoUsuario" value="H">Hombre
+                    <input type="radio" name="tipoUsuario" value="M">Mujer
+                    <input type="radio" name="tipoUsuario" value="O">Otro
+                    <input type="radio" name="tipoUsuario" value="N">No Indica
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <legend>Información Adicional</legend>
+                    <label for="motivo">Motivo de Viaje</label>
+                    <select name="motivo">
+                    <option value="Trabajo">Trabajo</option>
+                    <option value="Ocio">Ocio</option>
+                    <option value="Otro">Otro</option>
+                    <option value="No Indica" selected>No Indica</option>
+            </select>
+                    <br><br>
+                    <label for="txtAcom">Cantidad de acompañantes max. 3 &nbsp</label>
+                    <input type="number" id="txtAcom" min="0" max="3" value="0">
+                    <br><br>
+                    <label for="start">Fecha de entrada:</label>
+                    <input type="date" id="start" name="trip-start" value="2020-01-01" min="2020-01-01" max="2020-12-31">
+                    <label for="start">Fecha de salida:</label>
+                    <input type="date" id="start" name="trip-start" value="2020-01-01" min="2020-01-01" max="2020-12-31">
+                    <br><br>
+                    <label for="tipoHabitacion">Tipo Habitación:</label>
+                    <input type="radio" name="tipoHabitacion" value="E">Estandar
+                    <input type="radio" name="tipoHabitacion" value="P">Premium
+                    <input type="radio" name="tipoHabitacion" value="S">Suite
+                </fieldset>
+                <!--<fieldset>
+                    <legend>Area de Estudio</legend>
+                    <label><input type="checkbox" name="chkCiencia" id="chkCiencia" value="C">Ciencia</label>
+                    <label><input type="checkbox" name="chkMate" id="chkMate" value="M">Matematica</label>
+                    <label><input type="checkbox" name="chkBiolo" id="chkBiolo" value="B">Biologia</label>
+                    <label><input type="checkbox" name="chkTecno" id="chkTecno" value="T">Tecnologia</label>
+                </fieldset> -->
+                <br><br>
+                <input type="submit" value="Guardar">
+                <input type="reset" value="Limpiar">
+            </form>
+        </section>
+    </main>
+</header>
+
+</html>

@@ -1,0 +1,146 @@
+.class1 {
+    background-color: rgb(146, 39, 39);
+    width: 100%;
+    height: 200px;
+}
+
+.class1 .header-class .subclass1 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: aquamarine;
+}
+
+.class1 .header-class .subclass1 .subsub1 {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(41, 119, 209);
+    background-position: bottom;
+    float: left;
+    margin: 70px 70px;
+}
+
+.class1 .header-class .subclass2 {
+    width: 100px;
+    height: 100px;
+    float: right;
+    background-color: rgb(126, 97, 231);
+}
+
+.class1 .header-class .paragraph1 {
+    font-size: xx-large;
+    font-family: 'Brush Script MT', cursive;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    padding: 80px;
+}
+
+.body1 .subbody1 {
+    background-color: gray;
+    width: 50%;
+    float: left;
+    height: 130px;
+}
+
+.body1 .subbody2 {
+    background-color: pink;
+    width: 50%;
+    height: 130px;
+    float: right;
+}
+
+.body1 .subbody1 .bodyword1 {
+    background-color: black;
+    width: 90%;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.body1 .subbody1 .bodyword1 p {
+    font-size: medium;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(70, 219, 70);
+    text-align: left;
+}
+
+.body1 .subbody2 p {
+    margin-top: 30px;
+    font-size: medium;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(70, 219, 70);
+    text-align: right;
+}
+
+.body2 {
+    background-color: rgb(130, 176, 194);
+    width: 100%;
+    height: 480px;
+}
+
+.body2 .text1 p {
+    padding-top: 70px;
+    float: left;
+    font-size: medium;
+    font-family: 'Brush Script MT', cursive;
+    text-align: left;
+    text-shadow: 1px 1px;
+}
+
+.body2 .bodybox {
+    background-color: rgb(206, 72, 94);
+    width: 10%;
+    height: 70px;
+    float: right;
+    background-position: top;
+}
+
+.body2 .bodybox p {
+    padding-top: 20px;
+    float: left;
+    font-size: medium;
+    font-family: 'Brush Script MT', cursive;
+    text-align: left;
+    text-shadow: 1px 1px;
+}
+
+.body3 {
+    background-color: rgb(44, 197, 151);
+    width: 100%;
+    height: 150px;
+}
+
+.body3 .subbody3 {
+    width: 110px;
+    height: 110px;
+    float: left;
+    background-color: aquamarine;
+    margin-top: 40px;
+}
+
+.body3 .subbody31 {
+    width: 110px;
+    height: 110px;
+    float: right;
+    background-color: rgb(124, 66, 136);
+    margin-top: 40px;
+}
+
+.body3 .subbody31 .subbody31-box {
+    width: 30px;
+    height: 30px;
+    float: right;
+    background-color: rgb(105, 219, 29);
+}
+
+.body3 .body3-text p {
+    width: 60%;
+    padding-top: 80px;
+    padding-left: 350px;
+    text-indent: 20px;
+    letter-spacing: 10px;
+    font-size: x-large;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+}

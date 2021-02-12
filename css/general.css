@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica;
+}
+
+#header-Principal {
+    background-color: #000000;
+    padding: 15px;
+}
+
+#header-Principal nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+#header-Principal nav a:hover {
+    color: #fc883a;
+}

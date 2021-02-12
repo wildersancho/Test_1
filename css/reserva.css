@@ -1,0 +1,24 @@
+.sct-banner .imgPrincipal {
+    background-image: url('../imgs/pexels-photo-338504.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    width: 100%;
+}
+
+.boton {
+    font-weight: bold;
+    border: 1px solid #2e518b;
+    padding: 20px 20px;
+    background-color: #2e518b;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+}
+
+.boton:hover {
+    color: #2e518b;
+    background-color: #ffffff;
+}
