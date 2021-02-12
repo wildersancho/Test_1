@@ -1,3 +1,8 @@
 Set config values
 git config --global user.name “wsanchor”
 git config --global user.email “wilder.sanchoramos@dhl.com”
+
+cambio x
+cambio y
+
+cambio Z
